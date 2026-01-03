@@ -1,0 +1,60 @@
+/* Background */
+.login-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fff8f1, #f3e5d8);
+}
+
+/* Card */
+.login-card {
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(139, 94, 60, 0.2);
+  background: #ffffff;
+}
+
+/* Brand */
+.brand-title {
+  font-weight: 700;
+  color: #8b5e3c;
+  letter-spacing: 1px;
+}
+
+.brand-subtitle {
+  font-size: 0.9rem;
+  color: #6b8e23;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 12px;
+}
+
+.form-control:focus {
+  border-color: #d4a373;
+  box-shadow: 0 0 0 0.15rem rgba(212, 163, 115, 0.25);
+}
+
+/* Button */
+.login-btn {
+  background: linear-gradient(135deg, #8b5e3c, #d4a373);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 12px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(139, 94, 60, 0.3);
+}
+
+/* Links */
+.register-link {
+  color: #8b5e3c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}

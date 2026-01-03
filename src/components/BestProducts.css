@@ -1,0 +1,4 @@
+.card-img-top {
+  height: 200px;       /* same height for all images */
+  object-fit: cover;  /* crop without distortion */
+}
